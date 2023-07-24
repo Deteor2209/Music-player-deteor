@@ -1,0 +1,7 @@
+.cover {
+    width: 180px;
+    height: auto;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+}

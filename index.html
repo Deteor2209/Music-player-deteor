@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/title.css">
+    <link rel="stylesheet" href="CSS/progress.css">
+    <link rel="stylesheet" href="CSS/controls.css">
+    <link rel="stylesheet" href="CSS/cover.css">
+    <link rel="stylesheet" href="CSS/player.css">
+    <link rel="stylesheet" href="CSS/songs.css">
+    <script src="JS/main.js" defer></script>
+</head>
+<body>
+    <!-- Reproductor -->
+    <main class="player">
+
+        <!-- Titulo -->
+        <h1 class="title">Nueva canción</h1>
+
+        <!-- Portada -->
+        <img src="img/1.jpg" alt="" class="cover">
+
+        <!-- Barra de progreso -->
+        <div class="progress-container">
+            <section class="progress"></section>
+        </div>
+
+        <!-- Controles -->
+        <section class="controls">
+            <button class="prev">
+                <i class="fas fa-backward"></i> 
+            </button>
+            <button class="play">
+                <i class="fas fa-play"></i> 
+            </button>
+            <button class="next">
+                <i class="fas fa-forward"></i> 
+            </button>
+        </section>
+
+        <!-- Lista de canciones -->
+        <ul class="songs">
+            <li><a href="#">Song 1</a></li>
+            <li><a href="#">Song 2</a></li>
+            <li><a href="#">Song 3</a></li>
+        </ul>
+    </main>   
+</body>
+</html>

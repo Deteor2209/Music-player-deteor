@@ -1,0 +1,14 @@
+.songs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.songs li {
+    margin-bottom: 1rem;
+}
+
+.songs a {
+    color: white;
+    text-decoration: none;
+}
